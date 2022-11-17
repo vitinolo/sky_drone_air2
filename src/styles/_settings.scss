@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+
+$font-1: 'Frijole', cursive;
+$font-2: 'Dosis', sans-serif;
+$font-3: 'Josefin Sans', serif;
+
+$color-1: #33521d;
+$color-2: #b4cf64;
+$color-3: rgb(204, 196, 35);
+$color-4: #968021;
+$color-5: #36D0EA;
+$white: rgb(255, 255, 255);
+$black: rgb(7, 4, 4);
+
+$borderRadius: 25px;
+$shadow: 0 1px 3px #333;
+$minHeight: 95vh;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: $font-1;
+  color: $black;
+}
+button {
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: $black;
+  cursor: pointer;
+}
+
