@@ -1,8 +1,9 @@
 .mediascontent{
-    background-image: url('../../../public/medias/img/bg/materiel2.jpg');
+    margin: 0px;
+    padding:50px;
+    background-image: url('../../../public/medias/img/bg/bg2.jpg');
     background-size: cover;
-    width:100%;
+    color:rgb(241, 237, 237);
     height:100vh;
-    margin:0px;
-    padding: 50px;
+    max-width:100%;
 }

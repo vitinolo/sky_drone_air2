@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const Medias = () => {
     return (
-        <div>
+        <div className='mediasPage'>
             <Navigation />
             <MediasContent />
             <Footer />
