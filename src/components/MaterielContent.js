@@ -8,24 +8,24 @@ const MaterielContent = () => {
                 <div className='descrip'>
                     <div className='wrap'>
                         <img src="medias/img/materiel/poste_travail.jpg" alt="poste de travail informatique"></img>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum et ex ut ad accusantium, expedita vitae error commodi dolore sunt provident voluptate enim aut nisi.</span>
+                        <span>Matériel informatique iMac et iPad.</span>
                     </div>
                 </div>
                 <div className='descrip'>
                     <div className='wrap'>
-                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio repellat dolor dignissimos doloremque, ad possimus nihil corporis tempora earum, tempore reprehenderit accusantium voluptatum eum quas!</span>
+                        <span>Drônes de marque Dji.</span>
                         <img src="medias/img/materiel/drone.jpg" alt="poste de travail informatique"></img>
                     </div>
                 </div>
                 <div className='descrip'>
                     <div className='wrap'>
                         <img src="medias/img/materiel/casque.jpg" alt="poste de travail informatique"></img>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat error dignissimos officia est labore beatae, corrupti animi corporis quod impedit, illo, tenetur ducimus! Nobis, id!</span>
+                        <span>Casque de marque.</span>
                     </div>
                 </div>
                 <div className='descrip'>
                     <div className='wrap'>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam deleniti minima assumenda asperiores debitis voluptates ab beatae, maxime vitae animi velit natus necessitatibus nam aspernatur.</span>
+                        <span>GoPro sur stabilisateur.</span>
                         <img src="medias/img/materiel/Gopro.jpg" alt="poste de travail informatique"></img>
                     </div>
                 </div>

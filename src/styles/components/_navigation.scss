@@ -7,19 +7,22 @@
     background: $white;
     font-family: $font-1;
     .navigation{
-    display:flex;
-    justify-content:space-around;
-    align-items: center;
-    i {
-      margin: 5px;
-    };
-    a:hover {
-      color:green;
-    }
+      display:flex;
+      justify-content:space-around;
+      align-items: center;
+      i {
+        margin: 5px;
+      };
+      a:hover {
+        color:green;
+      }
     };
     img {
       width:50px;
       height:50px;
+    }
+    .active{
+      color:red;
     }
 }
   
