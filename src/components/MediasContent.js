@@ -1,13 +1,40 @@
 import React from 'react';
-
-
-const MediasContent = () => {
+import VideoYt from './VideosYt';
+const MediasContent = () =>{
     return (
-        <div className='mediascontent'>
-           <div className='videosFeed'>
-                   
-           </div>
-        </div>
+        <>
+            <div className='mediascontent'>
+                <VideoYt />        
+            </div>
+            
+            <div className='mediascontent'>
+                       
+            </div>
+            <div className='mediascontent'>
+                      
+            </div>
+            <div className='mediascontent'>
+                      
+            </div>
+            <div className='mediascontent'>
+                      
+            </div>
+            <div className='mediascontent'>
+                      
+            </div>
+            <div className='mediascontent'>
+                      
+            </div>
+            <div className='mediascontent'>
+                      
+            </div>
+            <div className='mediascontent'>
+                      
+            </div>
+            <div className='mediascontent'>
+                      
+            </div>
+        </>
     );
 };
 
