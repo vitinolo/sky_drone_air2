@@ -5,35 +5,7 @@ const MediasContent = () =>{
         <>
             <div className='mediascontent'>
                 <VideoYt />        
-            </div>
-            
-            <div className='mediascontent'>
-                       
-            </div>
-            <div className='mediascontent'>
-                      
-            </div>
-            <div className='mediascontent'>
-                      
-            </div>
-            <div className='mediascontent'>
-                      
-            </div>
-            <div className='mediascontent'>
-                      
-            </div>
-            <div className='mediascontent'>
-                      
-            </div>
-            <div className='mediascontent'>
-                      
-            </div>
-            <div className='mediascontent'>
-                      
-            </div>
-            <div className='mediascontent'>
-                      
-            </div>
+            </div>        
         </>
     );
 };
