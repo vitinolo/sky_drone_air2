@@ -18,6 +18,7 @@ const HomeContent = () => {
                         <span>Teaser</span>
                         <span>Avec ou sans montage vidéo</span>
                         <span>Devis sur demande par mail</span> 
+                        <span><a href="mailto:skydroneair@gmail.com">skydroneair@gmail.com</a></span>
                 </article>
             </div>
         </>
