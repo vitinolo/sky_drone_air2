@@ -10,7 +10,7 @@ const HomeContent = () => {
                 <span className='sous_titre_site tracking-in-expand2'>Prise de vue et montage</span>
                 <VideoTeaser/>
                 <article> 
-                        <span className='title_article'>Services</span>
+                        <span className='title_article'>Services:</span>
                         <span>Prise de vue sol et aérienne</span>
                         <span>Photos aériennes</span>
                         <span>Evènement "sport, loisir, familial"</span>

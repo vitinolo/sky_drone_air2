@@ -4,12 +4,6 @@
     width:100%;
     margin:0px;
     padding: 50px;
-    h1{
-        display:flex;
-        justify-content: center;
-        margin-top:25px;
-        color:white;
-    }
     .materiel .descrip{
         margin:40px 0px 40px 0px;
         display:flex;
@@ -20,6 +14,11 @@
             width:40%;
             max-height:10%;
             margin:10px 0px 10px 0px;
+        }
+        img:hover{
+         scale: 1.5;
+         transition:1s ease-in-out;
+         cursor: pointer;
         }
         span{
             font-size: 20px;

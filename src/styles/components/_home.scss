@@ -1,100 +1,132 @@
-.homecontent{
-   margin: 0px;
-   padding:50px;
-   background-image: url('../../../public/medias/img/bg/bg-drone.jpg');
-   background-size: cover;
-   color:rgb(241, 237, 237);
-   .title_site{
-      display:flex;
-      justify-content: center;
-      font-size: 100px;   
-   }
-   .video{
-    display:flex;
+.homecontent {
+  margin: 0px;
+  padding: 50px 0px 50px 0px;
+  background-image: url('../../../public/medias/img/bg/bg-drone.jpg');
+  background-size: cover;
+  color: rgb(241, 237, 237);
+
+  .title_site {
+    display: flex;
     justify-content: center;
-    padding:10px;
-   }
-   .sous_titre_site{
-      display:flex;
-      justify-content: center;
-      font-size: 30px;
-      
-   }
-   .tracking-in-expand{
-      -webkit-animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s forwards;
-              animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s forwards;
-   }
-   .tracking-in-expand2{
-      -webkit-animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s forwards;
-              animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s forwards;
-   }
-   .title_article{
+    font-size: 100px;
+  }
+
+  .video {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .sous_titre_site {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+  }
+
+  .tracking-in-expand {
+    -webkit-animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s forwards;
+    animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s forwards;
+  }
+
+  .tracking-in-expand2 {
+    -webkit-animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s forwards;
+    animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s forwards;
+  }
+
+  .title_article {
     display: flex;
     justify-content: center;
     font-size: 25px;
-   }
-   article{
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
-     font-size: 20px;
-     padding-bottom:10px;
-     color:white;
-     background-color: rgba(0,0,0,0.3);
-     span{
+  }
+
+  article {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    span {
+      display: flex;
+      justify-content: center;
     }
-    a{color:white}
-  } 
-  @media screen and (max-width: 870px){
-    .title_site{
-      font-size:50px;
+
+    a {
+      color: white
     }
-    .sous_titre_site{
-      font-size:20px;
+  }
+
+  @media screen and (max-width: 870px) {
+    .title_site {
+      font-size: 50px;
     }
-    .video{
-      margin:10px;
-      padding:0;
+
+    .sous_titre_site {
+      font-size: 20px;
     }
+
+    .video {
+      margin: 10px;
+      padding: 0;
+    }
+
     article {
-      margin-bottom:15px;
-      padding:15px;
+      margin-bottom: 15px;
+      padding: 15px;
     }
-  } 
+  }
+
   @media screen and (min-width:871px) and (max-width:1115px) {
-    .title_site{
-      font-size:75px;
+    .title_site {
+      font-size: 75px;
     }
-    .sous_titre_site{
-      font-size:35px;
+
+    .sous_titre_site {
+      font-size: 35px;
     }
-  } 
+  }
+  @media screen and (max-width: 470px){
+    .article p{
+        padding: 0px;
+        margin:0px;
+        word-wrap: break-word;       
+    }
+    span{
+        font-size: 20px;
+    }
+  }
 }
+
 //animation titre
 @-webkit-keyframes tracking-in-expand {
-   0% {
-     letter-spacing: -0.5em;
-     opacity: 0;
-   }
-   40% {
-     opacity: 0.6;
-   }
-   100% {
-     opacity: 1;
-   }
- }
- @keyframes tracking-in-expand {
-   0% {
-     letter-spacing: -0.5em;
-     opacity: 0;
-   }
-   40% {
-     opacity: 0.6;
-   }
-   100% {
-     opacity: 1;
-   }
- }
- 
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

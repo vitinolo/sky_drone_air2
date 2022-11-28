@@ -4,7 +4,6 @@ const MaterielContent = () => {
     return (
         <div className='materielcontent'>
             <div className='materiel'>
-                <h1>Matériel</h1>
                 <div className='descrip'>
                     <div className='wrap'>
                         <img src="medias/img/materiel/poste_travail.jpg" alt="poste de travail informatique"></img>
