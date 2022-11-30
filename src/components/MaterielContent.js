@@ -19,7 +19,7 @@ const MaterielContent = () => {
                 <div className='descrip'>
                     <div className='wrap'>
                         <img src="medias/img/materiel/casque.jpg" alt="poste de travail informatique"></img>
-                        <span>Casque de marque.</span>
+                        <span>Casque de marque Dji.</span>
                     </div>
                 </div>
                 <div className='descrip'>

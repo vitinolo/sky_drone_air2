@@ -1,20 +1,46 @@
 .mediasPage{
     width:100%;
-}
-.mediascontent{
     z-index:-10;
-    background-image: url('../../../public/medias/img/bg/bg3.jpg');
+    background-image: url('../../../public/medias/img/bg/bg2.jpg');
     background-size: cover;
     background-attachment: fixed;
+}
+.mediascontent{
     color:rgb(241, 237, 237);
     width:100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .patrimoine ,.sport, .teaser{
+        margin: 50px 0px 0px 0px;
+        button{
+            border: 1px solid $white;
+            width: 250px;
+            height:40px;
+            font-family:$font-1;
+            font-size: 30px;
+            border-radius: 10px;
+            margin-top: 50px;
+            padding:2px;
+            background-color: #285a12;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #fd2d01;
+            transition: 0.5s;
+            box-shadow: rgb(42 18 206 / 55%) 0 0 22px 6px;
+        }
+        i{
+            font-size: 20px;
+        }
+    }
     .videoWrap{
         @include verticalCenter;
         flex-direction: column;
         margin:50px 0px 50px 0px;
-        h1{
-            padding:10px;
-        }
         span{
             padding:10px;
         }

@@ -4,24 +4,21 @@
   background-image: url('../../../public/medias/img/bg/bg-drone.jpg');
   background-size: cover;
   color: rgb(241, 237, 237);
-
   .title_site {
     display: flex;
     justify-content: center;
     font-size: 100px;
   }
-
   .video {
     display: flex;
     justify-content: center;
     padding: 10px;
   }
-
   .sous_titre_site {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
     font-size: 30px;
-
   }
 
   .tracking-in-expand {
@@ -33,27 +30,29 @@
     -webkit-animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s forwards;
     animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s forwards;
   }
-
-  .title_article {
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-  }
-
   article {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 50px;
     font-size: 25px;
-    padding-bottom: 10px;
+    padding: 10px;
     color: white;
     background-color: rgba(0, 0, 0, 0.3);
-
+    .title_article {
+      display: flex;
+      justify-content: center;
+      font-size: 25px;
+    }
+    .wrapper{
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 0px 20px 0px;
+    }
     span {
       display: flex;
       justify-content: center;
     }
-
     a {
       color: white
     }
@@ -76,6 +75,11 @@
     article {
       margin-bottom: 15px;
       padding: 15px;
+    }
+    .wrapper{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
     }
   }
 

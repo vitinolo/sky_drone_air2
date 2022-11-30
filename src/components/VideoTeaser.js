@@ -10,7 +10,6 @@ function VideoTeaser() {
                     controls
                     playing
                     loop
-                    muted
                     className="player-video"
                 />
             </div>

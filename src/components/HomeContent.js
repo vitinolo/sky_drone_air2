@@ -11,14 +11,20 @@ const HomeContent = () => {
                 <VideoTeaser/>
                 <article> 
                         <span className='title_article'>Services:</span>
-                        <span>Prise de vue sol et aérienne</span>
-                        <span>Photos aériennes</span>
-                        <span>Evènement "sport, loisir, familial"</span>
-                        <span>Pub et Promotion</span>
-                        <span>Teaser</span>
-                        <span>Avec ou sans montage vidéo</span>
-                        <span>Devis sur demande par mail</span> 
-                        <span><a href="mailto:skydroneair@gmail.com">skydroneair@gmail.com</a></span>
+                        <div className='wrapper'>
+                            <p>
+                                <span>Prise de vue sol et aérienne</span>
+                                <span>Photos aériennes</span>
+                                <span>Evènement "sport, loisir, familial"</span>
+                                <span>Pub et Promotion</span>
+                            </p>
+                            <p>
+                                <span>Teaser</span>
+                                <span>Avec ou sans montage vidéo</span>
+                                <span>Devis sur demande par mail</span> 
+                                <span><a href="mailto:skydroneair@gmail.com">skydroneair@gmail.com</a></span>
+                            </p>
+                        </div>
                 </article>
             </div>
         </>
