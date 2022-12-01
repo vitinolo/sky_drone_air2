@@ -1,5 +1,4 @@
 import React from 'react';
-import  { useState } from 'react';
 import ReactPlayer from 'react-player';
 
 function VideosYt() {
@@ -17,142 +16,121 @@ function VideosYt() {
     const externalSource12 = 'https://www.youtube.com/watch?v=QGqdGI7Jx-k';
     const externalSource13 = 'https://www.youtube.com/watch?v=jn6OBmcJxGo';
     const externalSource14 = 'https://www.youtube.com/watch?v=2TAuBlrS3Rs';
-
-    const [visibility1, setVisibility1] = useState(false)
-    const [visibility2, setVisibility2] = useState(false)
-    const [visibility3, setVisibility3] = useState(false)
-
-    function changeVisibility1 () {
-        setVisibility1(!visibility1)
-     }
-    function changeVisibility2 () {
-        setVisibility2(!visibility2)
-     }
-    function changeVisibility3 () {
-        setVisibility3(!visibility3)
-     }
+    
     return (
         <>
-            <div className='medias'>
-                <div className='videotheque'>
-                    <div className='patrimoine'>
-                        <button  onClick={changeVisibility1} title="Afficher les vidéos">Patrimoine</button>
-                        {visibility1 && 
-                        <>
-                            <div className='videoWrap'>
-                                <ReactPlayer url={externalSource14} 
-                                    controls
-                                    className="player-video"
-                                />
-                                <span>Pont romain</span>
-                            </div>
-                            <div className='videoWrap'>
-                                <ReactPlayer url={externalSource6} 
-                                    controls
-                                    className="player-video"
-                                />
-                                <span>Sillé le Guillaume</span>
-                            </div>
-                            <div className='videoWrap'>
-                                <ReactPlayer url={externalSource11} 
-                                    controls
-                                    className="player-video"
-                                />
-                                <span>Finistère sud 2022</span>
-                            </div>
-                        </>}      
+            <div className='button-wrap'>
+                <a href="#patrimoine "><button  title="Afficher les vidéos">Patrimoine</button></a> 
+                <a href="#teasers"><button title="Afficher les vidéos">Teasers</button></a>
+                <a href="#sport"><button title="Afficher les vidéos">Sport</button></a>
+            </div>
+            <div className='videotheque'>
+                <div className='wrapper'id="patrimoine">
+                    <h1>Patrimoine</h1>
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource14} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>Pont romain</span>
                     </div>
-                    <div className='sport'>
-                    <button onClick={changeVisibility2} title="Afficher les vidéos">Sport</button>
-                    {visibility2 && 
-                        <>
-                            <div className='videoWrap'>
-                                <ReactPlayer url={externalSource9} 
-                                    controls
-                                    className="player-video"
-                                />
-                                <span>GRP 2022 inside</span>
-                            </div>
-                            <div className='videoWrap'>
-                                <ReactPlayer url={externalSource10} 
-                                    controls
-                                    className="player-video"
-                                />
-                                <span>GR20 juillet 2022</span>
-                            </div>
-                            <div className='videoWrap'>
-                                <ReactPlayer url={externalSource7} 
-                                    controls
-                                    className="player-video"
-                                />
-                                <span>La Flèche 2022</span>
-                            </div>
-                            <div className='videoWrap'>
-                                <ReactPlayer url={externalSource8} 
-                                    controls
-                                    className="player-video"
-                                />
-                                <span>Puy du Fou</span>
-                            </div>
-                            <div className='videoWrap'>
-                                <ReactPlayer url={externalSource12} 
-                                    controls
-                                    className="player-video"
-                                />
-                                <span>Menestrail 2021</span>
-                            </div>
-                            <div className='videoWrap'>
-                                <ReactPlayer url={externalSource13} 
-                                    controls
-                                    className="player-video"
-                                />
-                                <span>Grand Trail st Jacques 2022</span>
-                            </div>
-                        </>}
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource6} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>Sillé le Guillaume</span>
                     </div>
-                    <div className='teaser'>
-                        <button onClick={changeVisibility3} title="Afficher les vidéos">Teasers</button>
-                        {visibility3 && 
-                        <>
-                            <div className='videoWrap'>
-                                <ReactPlayer url={externalSource1} 
-                                    controls
-                                    className="player-video"
-                                />
-                                <span>Adrenobscure 2fr 2019</span>
-                            </div>
-                            <div className='videoWrap'>
-                                <ReactPlayer url={externalSource2} 
-                                    controls
-                                    className="player-video"
-                                />
-                                <span>Adrenobscure 2020</span>
-                            </div>
-                            <div className='videoWrap'>
-                                <ReactPlayer url={externalSource3} 
-                                    controls
-                                    className="player-video"
-                                />
-                                <span>Adrenakids</span>
-                            </div>
-                            <div className='videoWrap'>
-                                <ReactPlayer url={externalSource4} 
-                                    controls
-                                    className="player-video"
-                                />
-                                <span>Adrenobscure 2018</span>
-                            </div>
-                            <div className='videoWrap'>
-                                <ReactPlayer url={externalSource5} 
-                                    controls
-                                    className="player-video"
-                                />
-                                <span>Adrenaraid 2017</span>
-                            </div>
-                        </>}
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource11} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>Finistère sud 2022</span>
                     </div>
                 </div>
-                <div className='photos'>
+                <div className='wrapper' id="sport">
+                    <h1>Sport, evénementiel et associatif</h1>
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource9} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>GRP 2022 inside</span>
+                    </div>
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource10} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>GR20 juillet 2022</span>
+                    </div>
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource7} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>La Flèche 2022</span>
+                    </div>
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource8} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>Puy du Fou</span>
+                    </div>
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource12} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>Menestrail 2021</span>
+                    </div>
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource13} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>Grand Trail st Jacques 2022</span>
+                    </div>
+                </div>
+                <div className='wrapper'id="teasers">
+                    <h1>Teasers</h1>
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource1} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>Adrenobscure 2fr 2019</span>
+                    </div>
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource2} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>Adrenobscure 2020</span>
+                    </div>
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource3} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>Adrenakids</span>
+                    </div>
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource4} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>Adrenobscure 2018</span>
+                    </div>
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource5} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>Adrenaraid 2017</span>
+                    </div>
                 </div>
             </div>
         </>

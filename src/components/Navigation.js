@@ -5,7 +5,7 @@ const Navigation = () => {
     return (
         <div className="sidebar">
             <div className="navigation">
-                <img src="./medias/img/logo/logo2web.jpg" alt="logo de sky drone air"/>
+                <img src="./medias/img/logo/logo_2_web.png" alt="logo de sky drone air"/>
                 <NavLink style={({ isActive }) => { return {color : isActive ? "red" : ""};}} exact="true" to="/" title="Accueil">
                     <i className='fas fa-home'></i>
                     <span>Accueil</span>
