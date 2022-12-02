@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import  { faChurch, faPersonHiking, faPhotoFilm }  from '@fortawesome/free-solid-svg-icons';
 
 function VideosYt() {
     const externalSource1 = 'https://www.youtube.com/watch?v=ZPOTzWukaWc';
@@ -21,12 +23,12 @@ function VideosYt() {
         <>
             <div className='button-wrap'>
                 <a href="#patrimoine "><button  title="Afficher les vidéos">Patrimoine</button></a> 
-                <a href="#teasers"><button title="Afficher les vidéos">Teasers</button></a>
                 <a href="#sport"><button title="Afficher les vidéos">Sport</button></a>
-            </div>
+                <a href="#teasers"><button title="Afficher les vidéos">Teasers</button></a>
+            </div>                
             <div className='videotheque'>
-                <div className='wrapper'id="patrimoine">
-                    <h1>Patrimoine</h1>
+                <div className='wrapper'id="patrimoine" >
+                    <h1><FontAwesomeIcon icon={faChurch} />&nbsp;Patrimoine</h1>
                     <div className='videoWrap'>
                         <ReactPlayer url={externalSource14} 
                             controls
@@ -50,7 +52,7 @@ function VideosYt() {
                     </div>
                 </div>
                 <div className='wrapper' id="sport">
-                    <h1>Sport, evénementiel et associatif</h1>
+                    <h1><FontAwesomeIcon icon={faPersonHiking} />&nbsp; Sport, evénementiel</h1>
                     <div className='videoWrap'>
                         <ReactPlayer url={externalSource9} 
                             controls
@@ -95,7 +97,7 @@ function VideosYt() {
                     </div>
                 </div>
                 <div className='wrapper'id="teasers">
-                    <h1>Teasers</h1>
+                    <h1><FontAwesomeIcon icon={faPhotoFilm} />&nbsp; Teasers</h1>
                     <div className='videoWrap'>
                         <ReactPlayer url={externalSource1} 
                             controls
