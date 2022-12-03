@@ -20,13 +20,13 @@ function VideosYt() {
     const externalSource14 = 'https://www.youtube.com/watch?v=2TAuBlrS3Rs';
     
     return (
-        <>
+        <>   
             <div className='button-wrap'>
                 <a href="#patrimoine "><button  title="Afficher les vidéos">Patrimoine</button></a> 
                 <a href="#sport"><button title="Afficher les vidéos">Sport</button></a>
                 <a href="#teasers"><button title="Afficher les vidéos">Teasers</button></a>
             </div>                
-            <div className='videotheque'>
+            <div className='videotheque' id="start">
                 <div className='wrapper'id="patrimoine" >
                     <h1><FontAwesomeIcon icon={faChurch} />&nbsp;Patrimoine</h1>
                     <div className='videoWrap'>
@@ -98,7 +98,7 @@ function VideosYt() {
                 </div>
                 <div className='wrapper'id="teasers">
                     <h1><FontAwesomeIcon icon={faPhotoFilm} />&nbsp; Teasers</h1>
-                    <div className='videoWrap'>
+                    <div className='videoWrap' id="end">
                         <ReactPlayer url={externalSource1} 
                             controls
                             className="player-video"
