@@ -18,6 +18,7 @@ function VideosYt() {
     const externalSource12 = 'https://www.youtube.com/watch?v=QGqdGI7Jx-k';
     const externalSource13 = 'https://www.youtube.com/watch?v=jn6OBmcJxGo';
     const externalSource14 = 'https://www.youtube.com/watch?v=2TAuBlrS3Rs';
+    const externalSource15 = 'https://www.youtube.com/watch?v=F6cOQDczDCA';
     
     return (
         <>   
@@ -49,6 +50,13 @@ function VideosYt() {
                             className="player-video"
                         />
                         <span>Finistère sud 2022</span>
+                    </div>
+                    <div className='videoWrap'>
+                        <ReactPlayer url={externalSource15} 
+                            controls
+                            className="player-video"
+                        />
+                        <span>Sky Drone Air</span>
                     </div>
                 </div>
                 <div className='wrapper' id="sport">
