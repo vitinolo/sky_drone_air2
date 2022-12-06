@@ -1,17 +1,10 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
 
 function VideoTeaser() {
-    const externalSource = 'https://youtu.be/b2MOk3MwZxI';
     return (
         <>
             <div className='video'>
-                <ReactPlayer url={externalSource} 
-                    controls
-                    playing
-                    loop
-                    className="player-video"
-                />
+                <iframe width="915" height="515" src="https://www.youtube.com/embed/b2MOk3MwZxI?autoplay=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
         </>
     );

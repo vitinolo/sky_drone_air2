@@ -75,17 +75,52 @@
             padding:10px;
             font-size: 40px;   
         }
-    }
-    .videoWrap{
-        @include verticalCenter;
-        flex-direction: column;
-        margin:50px 0px 50px 0px;
-        span{
-            font-size:25px;
-            padding:10px;
+        .videoWrap{
+            @include verticalCenter;
+            flex-direction: column;
+            margin:50px 0px 50px 0px;
+            iframe{
+                width:760px;
+            }
+            span{
+                font-size:25px;
+                padding:10px;
+            }
         }
     }
-    @media screen and (max-width:850px) { 
+    @media screen and (min-width:551px) and (max-width:850px) { 
+        .fa-angle-up, .fa-angle-down{
+            display:none;
+        }
+        .button-wrap{
+            flex-direction: column;
+            align-items: center;
+            width:100%;
+            a{
+                width:100%;
+            }
+            svg{
+                display:none;
+            }
+        }
+        .wrapper{
+            @include verticalCenter;
+            flex-direction: column;
+            width:500px;
+            svg{
+                display: none;
+            }
+            .videoWrap{
+                display:flex;
+                justify-content: center;
+                width:500px;      
+                iframe{
+                    width:500px;
+                }          
+            }                  
+        }           
+    } 
+    @media screen and (max-width:550px) {
         .fa-angle-up, .fa-angle-down{
             display:none;
         }
@@ -102,25 +137,20 @@
         }
         .wrapper{
             align-items: center;
-            width:500px;
+            width:320px;
             svg{
                 display: none;
             }
-        }        
-        .videoWrap{
-            display:flex;
-            justify-content: center;
-            .player-video{
-                width:100%;    
+            .videoWrap{
+                display:flex;
+                justify-content: center;
+                width:320px; 
                 iframe{
-                width:420px;
-                margin-left:17%;
-                }
-                
-            }
-        }                  
-       
-    } 
-    
+                    width:300px;
+                }     
+                           
+            }                  
+        }                
 
+    }   
 }

@@ -6,21 +6,21 @@ const HomeContent = () => {
     return (
         <>
             <div className='homecontent'>
-                <span className='title_site tracking-in-expand'>Sky Drone Air</span>
-                <span className='sous_titre_site tracking-in-expand2'>Prise de vue et montage</span>
+                <span className='title_site tracking-in-expand'><strong>Sky Drone Air</strong></span>
+                <span className='sous_titre_site tracking-in-expand2'><strong>Prise de vue et montage</strong></span>
                 <VideoTeaser/>
                 <article> 
                         <span className='title_article'>Services:</span>
                         <div className='wrapper'>
                             <p>
-                                <span>Prise de vue sol et aérienne</span>
-                                <span>Photos aériennes</span>
-                                <span>Evènement "sport, loisir, familial"</span>
-                                <span>Pub et Promotion</span>
+                                <span><strong>Prise de vue sol et aérienne</strong></span>
+                                <span><strong>Photos aériennes</strong></span>
+                                <span><strong>Evènement "sport, loisir, familial"</strong></span>
+                                <span><strong>Pub et Promotion</strong></span>
                             </p>
                             <p>
-                                <span>Teaser</span>
-                                <span>Avec ou sans montage vidéo</span>
+                                <span><strong>Teaser</strong></span>
+                                <span><strong>Avec ou sans montage vidéo</strong></span>
                                 <span>Devis sur demande par mail</span> 
                                 <span><a href="mailto:skydroneair@gmail.com">skydroneair@gmail.com</a></span>
                             </p>
