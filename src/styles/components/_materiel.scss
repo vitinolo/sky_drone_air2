@@ -4,7 +4,7 @@
     width:100%;
     margin:0px;
     padding: 50px;
-    .materiel .descrip{
+    .materiel {
         margin:40px 0px 40px 0px;
         display:flex;
         flex-direction: column;
@@ -21,7 +21,7 @@
          cursor: pointer;
         }
         span{
-            font-size: 20px;
+            font-size: 30px;
             color:white;
             padding:0px 10px 0px 10px;
         }
@@ -42,6 +42,16 @@
         span{
             font-size: 20px;
             margin:10px 0px 10px 0px;
+        }
+    }
+    @media screen and (min-width:551px) and (max-width:900px){
+        .wrap span{
+            font-size: 17px;
+        }
+    }
+    @media screen and (max-width:550px) {
+        .wrap span{
+            font-size: 15px;
         }
     }
 }

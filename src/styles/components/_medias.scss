@@ -141,12 +141,18 @@
             svg{
                 display: none;
             }
+            h1{
+                font-size: 25px;
+            }
             .videoWrap{
                 display:flex;
                 justify-content: center;
                 width:320px; 
                 iframe{
                     width:300px;
+                }
+                span{
+                    font-size: 15px;
                 }     
                            
             }                  
