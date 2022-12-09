@@ -12,7 +12,7 @@ const Navigation = () => {
                 </NavLink>   
                 <NavLink style={({ isActive }) => { return {color : isActive ? "red" : ""};}}exact="true" to="/Medias" title="Médias">
                     <i className='fas fa-video'></i>
-                    <span>Médias</span>
+                    <span>Média</span>
                 </NavLink>
                 <NavLink style={({ isActive }) => { return {color : isActive ? "red" : ""};}} exact="true" to="/Contact" title="Contact">
                     <i className='fas fa-id-card'></i>
