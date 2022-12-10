@@ -16,7 +16,7 @@
             margin:10px 0px 10px 0px;
         }
         img:hover{
-         scale: 1.5;
+         transform:scale(1.5);
          transition:1s ease-in-out;
          cursor: pointer;
         }

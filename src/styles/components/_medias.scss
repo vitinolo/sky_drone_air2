@@ -22,8 +22,8 @@
     }
     .fa-angle-up:hover{
         color:green;
-        scale: 1.2;
-        transition:1;
+        transform: scale(1.5);
+        transition:1s;
     }
     .fa-angle-down{
         z-index:20;
@@ -36,8 +36,8 @@
     }
     .fa-angle-down:hover{
         color:green;
-        scale: 1.2;
-        transition:1;
+        transform: scale(1.5);
+        transition:1s;
     }
     .button-wrap{
         width: 100%;
