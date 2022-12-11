@@ -8,7 +8,7 @@
     background-image: url('../../../public/medias/img/bg/bg2.jpg');
     background-size: cover;
     background-attachment: fixed;
-    color:rgb(241, 237, 237);
+    color:white;
     width:100%;
     padding:50px 0px 0px 0px;
     .fa-angle-up{
@@ -49,7 +49,7 @@
         width:33%;
     }
     button{
-        border: 1px solid $white;
+        border: 1px solid white;
         width: 100%;
         height:40px;
         font-family:$font-1;
@@ -68,7 +68,7 @@
     }
     .wrapper{
         margin: 50px 0px 0px 0px;
-        border-bottom: 1px solid $white;
+        border-bottom: 1px solid white;
         h1{
             @include verticalCenter;
             word-break: break-all;

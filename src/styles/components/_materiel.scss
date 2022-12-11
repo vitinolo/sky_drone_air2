@@ -50,8 +50,16 @@
         }
     }
     @media screen and (max-width:550px) {
-        .wrap span{
-            font-size: 15px;
+        .wrap{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width:180px;
+            }
+            span{
+                font-size: 15px;
+            }
         }
     }
 }
