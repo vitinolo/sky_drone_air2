@@ -6,10 +6,10 @@ const ContactContent = () => {
             <article>
                     <h1>Sky Drone Air</h1>
                 <p>
-                    <span>1602 route de st Etienne du narais</span>
+                    <span>Siège social</span>
                     <span>72470 St Mars le Brière</span>
-                    <span>Tel: 06.74.40.81.32</span>
-                    <span> Mail: skydroneair@gmail.com</span>
+                    <span>Privilégier contact par email :</span>
+                    <span>skydroneair@gmail.com</span>
                 </p>
             </article>
             <div className="carte">

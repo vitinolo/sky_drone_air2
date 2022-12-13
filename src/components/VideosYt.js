@@ -60,6 +60,10 @@ function VideosYt() {
                         <span>Sky Drone Air</span>
                     </div>
                     <div className='videoWrap'>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/OX44it5kcvA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <span>Gîte la Vieuxville, gîte étape</span>
+                    </div>
+                    <div className='videoWrap'>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPOTzWukaWc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         <span>Adrenobscure 2fr 2019</span>
                     </div>

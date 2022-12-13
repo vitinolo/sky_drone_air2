@@ -9,7 +9,7 @@ const MaterielContent = () => {
                     <span>Matériel informatique iMac et iPad.</span>
                 </div>
                 <div className='wrap'>
-                    <span>Drônes de marque Dji.</span>
+                    <span>Drones de marque Dji.</span>
                     <img src="medias/img/materiel/drone.jpg" alt="poste de travail informatique"></img>
                 </div>
                 <div className='wrap'>
