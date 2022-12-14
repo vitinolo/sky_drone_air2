@@ -9,7 +9,7 @@ const TarifsContent = () => {
                     <a href="./medias/devis/DEVIS.pdf" title='ouvrir le devis en pdf'> Devis</a>.
                 </p>
                 <span>Veuillez nous contacter pour parfaire votre projet.</span>
-                <img alt="devis" src="./medias/devis/devis.jpg"></img>
+                <img alt="devis" src="./medias/devis/devis.webp"></img>
             </div>
         </div>
     );

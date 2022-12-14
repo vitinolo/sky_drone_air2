@@ -5,20 +5,20 @@ const MaterielContent = () => {
         <div className='materielcontent'>
             <div className='materiel'>    
                 <div className='wrap'>
-                    <img src="medias/img/materiel/poste_travail.jpg" alt="poste de travail informatique"></img>
+                    <img src="medias/img/materiel/poste_travail.webp" alt="poste de travail informatique"></img>
                     <span>Matériel informatique iMac et iPad.</span>
                 </div>
                 <div className='wrap'>
                     <span>Drones de marque Dji.</span>
-                    <img src="medias/img/materiel/drone.jpg" alt="poste de travail informatique"></img>
+                    <img src="medias/img/materiel/drone.webp" alt="poste de travail informatique"></img>
                 </div>
                 <div className='wrap'>
-                    <img src="medias/img/materiel/casque.jpg" alt="poste de travail informatique"></img>
+                    <img src="medias/img/materiel/casque.webp" alt="poste de travail informatique"></img>
                     <span>Casque de marque Dji.</span>
                 </div>
                 <div className='wrap'>
                     <span>GoPro sur stabilisateur.</span>
-                    <img src="medias/img/materiel/Gopro.jpg" alt="poste de travail informatique"></img>
+                    <img src="medias/img/materiel/gopro.webp" alt="poste de travail informatique"></img>
                 </div>
             </div>
             <div className='logiciel'>

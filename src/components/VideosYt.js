@@ -27,7 +27,7 @@ function VideosYt() {
                     </div>
                 </div>
                 <div className='wrapper' id="sport">
-                    <h1><FontAwesomeIcon icon={faPersonHiking} />&nbsp; Sport, evénementiel</h1>
+                    <h1><FontAwesomeIcon icon={faPersonHiking} />&nbsp; Sport, événementiel</h1>
                     <div className='videoWrap'>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/cJdSDT_gB70" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         <span>GRP 2022 inside</span>
