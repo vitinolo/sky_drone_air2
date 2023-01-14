@@ -10,6 +10,7 @@ const TarifsContent = () => {
                 </p>
                 <span>Veuillez nous contacter pour parfaire votre projet.</span>
                 <img alt="devis" src="./medias/devis/devis.webp"></img>
+                <img alt="tarifs" src="./medias/devis/tarifs.webp"></img>
             </div>
         </div>
     );
