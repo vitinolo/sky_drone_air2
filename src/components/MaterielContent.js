@@ -9,12 +9,12 @@ const MaterielContent = () => {
                     <span>Matériel informatique iMac et iPad.</span>
                 </div>
                 <div className='wrap'>
-                    <span>Drones de marque Dji.</span>
+                    <span>Drones de marque Dji + fpv.</span>
                     <img src="medias/img/materiel/drone.webp" alt="poste de travail informatique"></img>
                 </div>
                 <div className='wrap'>
                     <img src="medias/img/materiel/casque.webp" alt="poste de travail informatique"></img>
-                    <span>Casque de marque Dji.</span>
+                    <span>Casque Dji.</span>
                 </div>
                 <div className='wrap'>
                     <span>GoPro sur stabilisateur.</span>
@@ -24,13 +24,13 @@ const MaterielContent = () => {
             <div className='logiciel'>
                 <h1>Logiciels</h1>
                 <span>
-                    Vidéo: final cut proX, Premier Adobe, After effect Adobe.
+                    Vidéo: final cut proX, Motion, Premier Adobe, After effect Adobe.
                 </span>
                 <span>
                     Photo: Photoshop Adobe, Lightroom.
                 </span>
                 <span>
-                    Musique: GarageBang.
+                    Musique: GarageBang, sans droit.
                 </span>
                 <span>
                     Encodeur: MediaEncoder Adobe.

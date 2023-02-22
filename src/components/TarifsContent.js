@@ -1,11 +1,12 @@
 import React from 'react';
+import tarifsPdf from '../documents/drone-1.pdf';
 
 const TarifsContent = () => {
     return (
         <div className='tarifscontent'>
             <div className='devisWrapper'>
                 <h1>Devis et tarifs sur demande</h1>
-                <img alt="tarifs" src="./medias/devis/tarifs.webp"></img>
+                <a href={tarifsPdf}  aria-label="lien tarifs" target="blank" title='télécharger tarifs'><img alt="tarifs" src="./medias/devis/tarifs.webp"></img></a>
             </div>
         </div>
     );
