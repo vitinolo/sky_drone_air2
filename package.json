@@ -1,5 +1,6 @@
 {
   "name": "sky_drone_air",
+  "homepage": "https://skydroneair.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

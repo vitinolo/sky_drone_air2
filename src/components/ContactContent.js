@@ -4,7 +4,7 @@ const ContactContent = () => {
     return (
         <div className='contactcontent'>
             <article>
-                    <h1>Sky Drone Air</h1>
+                <h1>Sky Drone Air</h1>
                 <p>
                     <span>Siège social</span>
                     <span>72470 St Mars le Brière</span>
