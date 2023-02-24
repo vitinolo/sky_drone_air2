@@ -102,7 +102,18 @@ function MediasContent () {
           source: "https://www.youtube.com/embed/wcFGYo1Ct8M",
           titre:"Adrenaraid 2017",
         },
-        
+        {
+          id: 17,
+          type: 'teasers',
+          source: "https://www.youtube.com/embed/GdrKG47PjaE",
+          titre:"teaser Gr 20 montage et réalisation",
+        },
+        {
+          id: 18,
+          type: 'teasers',
+          source: "https://www.youtube.com/embed/mca2P-e4eUw",
+          titre:"sky drone air sur le GR10",
+        },
       ];
     
     return (
