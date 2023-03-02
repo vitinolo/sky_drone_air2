@@ -1,15 +1,15 @@
 .mediasPage{
     width:100%;
+    min-height:800px;
+    background-image: url('../../../public/medias/img/bg/bg2.webp');
+    background-size:cover;
+    background-attachment: fixed;
 }
 .mediascontent{
     @include verticalCenter;
     flex-direction: column;
     z-index:-10;
-    background-image: url('../../../public/medias/img/bg/bg2.webp');
-    background-size: cover;
-    background-attachment: fixed;
     color:white;
-    width:100%;
     padding:50px 0px 0px 0px;
     .fa-angle-up{
         z-index:20;

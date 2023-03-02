@@ -10,7 +10,7 @@ const Navigation = () => {
                     <i className='fas fa-home'></i>
                     <span>Accueil</span>
                 </NavLink>   
-                <NavLink aria-label="lien media" style={({ isActive }) => { return {color : isActive ? "red" : ""};}}exact="true" to="/Medias" title="Médias">
+                <NavLink aria-label="lien media" style={({ isActive }) => { return {color : isActive ? "red" : ""};}} exact="true" to="/Medias" title="Médias">
                     <i className='fas fa-video'></i>
                     <span>Média</span>
                 </NavLink>
