@@ -8,7 +8,7 @@ import Sport from './Sport';
 function MediasContent () {
       const [visibility, setVisibility] = useState(false)
       const [visibility1, setVisibility1] = useState(false)
-      const [visibility2, setVisibility2] = useState(false)
+      const [visibility2, setVisibility2] = useState(true)
 
       function changeVisibility () {
           setVisibility(!visibility)

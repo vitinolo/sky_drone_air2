@@ -8,14 +8,14 @@ const Teaser = () => {
         {
             id: 9,
             type: 'teasers',
-            source: "https://www.youtube.com/embed/GdrKG47PjaE",
-            titre:"teaser Gr 20 montage et réalisation",
+            source: "https://www.youtube.com/embed/mca2P-e4eUw",
+            titre:"sky drone air sur le GR10",
         },
         {
             id: 8,
             type: 'teasers',
-            source: "https://www.youtube.com/embed/mca2P-e4eUw",
-            titre:"sky drone air sur le GR10",
+            source: "https://www.youtube.com/embed/GdrKG47PjaE",
+            titre:"teaser Gr 20 montage et réalisation",
         },
         {
             id: 7,
