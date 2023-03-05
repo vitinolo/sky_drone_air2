@@ -6,21 +6,19 @@ import Teaser from './Teaser';
 import Sport from './Sport';
 
 function MediasContent () {
-      const [visibility, setVisibility] = useState(false)
-      const [visibility1, setVisibility1] = useState(false)
-      const [visibility2, setVisibility2] = useState(true)
+    const [visibility, setVisibility] = useState(false)
+    const [visibility1, setVisibility1] = useState(false)
+    const [visibility2, setVisibility2] = useState(true)
 
-      function changeVisibility () {
-          setVisibility(!visibility)
-       }
-
-      function changeVisibility1 () {
-          setVisibility1(!visibility1)
-       }
-
-      function changeVisibility2 () {
-          setVisibility2(!visibility2)
-       }
+    function changeVisibility () {
+        setVisibility(!visibility)
+    }
+    function changeVisibility1 () {
+        setVisibility1(!visibility1)
+    }
+    function changeVisibility2 () {
+        setVisibility2(!visibility2)
+    }
     return (
         <>
             <div className='mediascontent'>
