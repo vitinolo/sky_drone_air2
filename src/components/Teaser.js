@@ -6,6 +6,18 @@ import  { faPhotoFilm }  from '@fortawesome/free-solid-svg-icons';
 const Teaser = () => {
     const teasers = [
         {
+            id: 11,
+            type: 'teasers',
+            source: "https://www.youtube.com//embed/SuuZzXTWtpg",
+            titre:"Almost GOOD Live Session 2023",
+        },
+        {
+            id: 10,
+            type: 'teasers',
+            source: "https://www.youtube.com/embed/j0taG2FP4CQ",
+            titre:"Marco polo 2022 mercedes benz",
+        },
+        {
             id: 9,
             type: 'teasers',
             source: "https://www.youtube.com/embed/mca2P-e4eUw",

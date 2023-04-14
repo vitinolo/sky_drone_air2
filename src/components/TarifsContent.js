@@ -1,5 +1,5 @@
 import React from 'react';
-import tarifsPdf from '../documents/drone-1.pdf';
+import tarifsPdf from '../documents/tarifs-web.pdf';
 
 const TarifsContent = () => {
     return (

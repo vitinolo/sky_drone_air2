@@ -6,6 +6,12 @@ import  { faChurch }  from '@fortawesome/free-solid-svg-icons';
 const Patrimoine = () => {
     const patrimoines = [
         {
+          id: 4,
+          type: 'patrimoine',
+          source: "https://www.youtube.com/embed/ufLVDRTC_eE",
+          titre:"Finistère nord",
+        },
+        {
           id: 3,
           type: 'patrimoine',
           source: "https://www.youtube.com/embed/2TAuBlrS3Rs",
